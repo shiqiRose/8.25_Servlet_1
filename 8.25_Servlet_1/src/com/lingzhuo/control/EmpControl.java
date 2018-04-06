@@ -69,7 +69,7 @@ public class EmpControl extends HttpServlet {
 		   
 			int total=empDao.selectEmpTotal(empvo);//查询总记录数
 			System.out.println("-----total------"+total);
-			
+			System.out.println("-----total------"+total);
 			
 			PageVo pagevo=new PageVo();
 			pagevo.setPagNow(Integer.parseInt(pageNow));//封装页码 计算偏移量
