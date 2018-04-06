@@ -18,7 +18,7 @@ import com.lingzhuo.vo.EmpVo;
 import com.lingzhuo.vo.PageVo;
 
 /**
- * Servlet implementation class EmpControl
+ * Servlet implementation class EmpControl111
  */
 @WebServlet("/EmpControl")
 public class EmpControl extends HttpServlet {
